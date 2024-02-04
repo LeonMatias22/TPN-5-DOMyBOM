@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+}
+
+.contenedor-img-hero{
+    padding: 10px;
+}
+
+#img-hero{
+    width: 650px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: rgb(59, 57, 57);
+    color: rgb(237, 237, 237);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
