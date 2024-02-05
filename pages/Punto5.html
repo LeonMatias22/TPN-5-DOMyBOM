@@ -9,21 +9,32 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../styles/Punto5.css" />
     <link rel="stylesheet" href="../styles/home.css" />
     <title>Cronometro</title>
   </head>
   <body>
     <header id="header"></header>
-    <h1 class="text-center mt-5">Cronometro</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <div id="timer">00:00:00</div>
-          <div id="controls">
-            <button id="comenzar">Comenzar</button>
-            <button id="pausa">Pausar</button>
-            <button id="reset">Reset</button>
+    <h1 class="text-center mt-5">Cronómetro</h1>
+    <div class="container mt-5">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div
+          class="col-6 d-flex flex-column justify-content-center align-items-center"
+        >
+          <div id="timer" class="">00:00:00</div>
+          <div id="controls" class="mt-4">
+            <button
+              class="btn btn-primary m-2 d-block d-lg-inline"
+              id="comenzar"
+            >
+              Comenzar
+            </button>
+            <button class="btn btn-danger m-2 d-block d-lg-inline" id="pausa">
+              Pausar
+            </button>
+            <button class="btn btn-warning m-2 d-block d-lg-inline" id="reset">
+              Reset
+            </button>
           </div>
         </div>
       </div>

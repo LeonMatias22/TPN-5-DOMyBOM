@@ -17,24 +17,31 @@
     <header id="header"></header>
     <h1 class="text-center mt-5">Temporizador</h1>
     <div class="container">
-      <div class="row">
-        <div class="col-6">
+      <div class="row d-flex justify-content-center m-5">
+        <div
+          class="col-6 d-flex flex-column justify-content-center align-items-center"
+        >
           <div id="contenedorInputs">
-            <input type="number" placeholder="Ingrese Horas" id="inputHoras" />
-            <br />
             <input
+              class="mt-2 d-block"
+              type="number"
+              placeholder="Ingrese Horas"
+              id="inputHoras"
+            />
+            <input
+              class="mt-2 d-block"
               type="number"
               placeholder="Ingrese Minutos"
               id="inputMinutos"
             />
-            <br />
             <input
+              class="mt-2 d-block"
               type="number"
               placeholder="Ingrese Segundos"
               id="inputSegundos"
             />
           </div>
-          <div class="m-5" id="timer"></div>
+          <div class="m-5 d-flex" id="timer"></div>
           <div class="m-5" id="controls">
             <button class="btn btn-primary" id="comenzar">Comenzar</button>
             <button class="btn btn-danger" id="pausa">Pausar</button>
