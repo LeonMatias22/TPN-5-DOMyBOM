@@ -5,8 +5,12 @@
 }
 
 .home{
-    background-color: rgb(245, 245, 245);
-    border-radius: 20px;
+    /* background-color: rgb(245, 245, 245); */
+    background-color: rgb(238, 236, 236);
+    /* border-radius: 20px; */
+    box-shadow: 0px 2px 8px 6px rgba(0,0,0,0.63);
+-webkit-box-shadow: 0px 2px 8px 6px rgba(0,0,0,0.63);
+-moz-box-shadow: 0px 2px 8px 6px rgba(0,0,0,0.63);
 }
 
 .contenedor-img-hero{
@@ -14,7 +18,7 @@
 }
 
 #img-hero{
-    width: 650px;
+    width: 100%;
     border-radius: 20px;
 }
 
@@ -30,4 +34,41 @@ footer{
 a{
     text-decoration: none;
     color: white;
+}
+
+.img-consigna{
+    max-width: 100%;
+}
+
+@media(max-width: 991px){
+    .home{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.603),
+            rgba(0, 0, 0, 0.613)
+        )
+        ,url("../assets/Fig-01-Cómo-convertirse-en-un-desarrollador-web.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.63);
+-webkit-box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.63);
+-moz-box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.63);
+        color: white;
+
+    }
+
+    #hero-titulo-boton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #boton-hero{
+        background-color:rgb(0, 0, 0);
+        /* color: rgb(255, 255, 255); */
+        box-shadow: 1px 2px 28px 9px rgba(255,255,255,0.63);
+-webkit-box-shadow: 1px 2px 28px 9px rgba(255,255,255,0.63);
+-moz-box-shadow: 1px 2px 28px 9px rgba(255,255,255,0.63);
+    }
 }
