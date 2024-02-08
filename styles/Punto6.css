@@ -1,8 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: black;
     color: white;
 }
 
 #timer{
-    font-size: 4rem;
+    
+    font-size: 1.1rem;
+    padding: 0%;
 }
+
+#comenzar{
+    font-size: 13px;
+}
+
+
+@media(min-width: 992px){
+    #timer{
+        font-size: 4rem;
+    }
+} 
+@media(min-width: 768px) and (max-width: 991px){
+    #timer{
+        font-size: 3rem;
+    }
+} 
+@media(min-width: 576px) and (max-width: 767px){
+    #timer{
+        font-size: 2rem;
+    }
+} 
+@media(min-width: 431px) and (max-width: 575px){
+    #timer{
+        font-size: 1.5rem;
+    }
+} 
+@media(min-width: 390px){
+    #comenzar{
+        font-size: 15px;
+    }
+} 

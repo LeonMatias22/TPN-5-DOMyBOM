@@ -47,7 +47,7 @@ const renderizarTimer = () => {
   const displayHoras = formatoDosDigitos(horas);
 
   const contenedorTimer = document.getElementById("timer");
-  contenedorTimer.innerText = ` ${displayHoras}: ${displayMinutos} : ${displaySegundos} `;
+  contenedorTimer.innerText = `<p class="d-flex flex-nowrap"> ${displayHoras}: ${displayMinutos} : ${displaySegundos} </p> `;
 };
 
 const start = () => {
